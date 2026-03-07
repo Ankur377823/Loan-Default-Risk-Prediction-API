@@ -7,15 +7,11 @@ router = APIRouter()
 
 
 
-# Prediction Endpoint
-
 @router.post("/predict", response_model=PredictionResponse)
 def predict(data: LoanApplication):
     return predict_output(data)
 
 
-
-# Model Info Endpoint
 
 @router.get("/model-info")
 def model_info():
