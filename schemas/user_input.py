@@ -355,12 +355,10 @@ class LoanApplication(BaseModel):
 
         value = str(value)
 
-        # Normalize
         value = value.lower()
         value = value.replace(" ", "_")
         value = value.strip()
 
-        # Unknown values → other
         if value not in ALLOWED_PURPOSES:
             return "other"
 
@@ -428,11 +426,6 @@ class LoanApplication(BaseModel):
 
         return value
     
-    
-    
-    
-    
-    # Feature Engineering
    
 
     @computed_field
