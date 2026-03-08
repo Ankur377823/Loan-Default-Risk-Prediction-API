@@ -49,15 +49,7 @@ Returns prediction probabilities and feature explanations
 
 ------------------------------------------------------------------------
 
-## Project Structure
 
-loan-default-api │ ├── app.py ├── requirements.txt │ ├── config │ └──
-validators.py │ ├── model │ ├── loan_model_1.pkl │ ├── model_loader.py │
-└── predict.py │ ├── routers │ └── routes.py │ ├── schemas │ ├──
-user_input.py │ └── prediction_response.py │ ├── utils │ └── logger.py │
-└── notebooks └── model.ipynb
-
-------------------------------------------------------------------------
 
 ## API Endpoints
 
