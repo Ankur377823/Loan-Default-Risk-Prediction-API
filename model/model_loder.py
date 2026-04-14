@@ -1,6 +1,6 @@
 import pickle
 
-MODEL_PATH = "model/loan_model_1.pkl"
+MODEL_PATH = "loan_model_1.pkl"
 
 class ModelLoader:
 
